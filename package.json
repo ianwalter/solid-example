@@ -13,5 +13,10 @@
     "presets": [
       "solid"
     ]
+  },
+  "renovate": {
+    "extends": [
+      "@ianwalter"
+    ]
   }
 }
