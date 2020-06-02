@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-preset-solid": "^0.18.4",
+    "parcel-bundler": "^1.12.4",
+    "solid-js": "^0.18.4"
+  },
+  "babel": {
+    "presets": [
+      "solid"
+    ]
+  }
+}
