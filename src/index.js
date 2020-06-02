@@ -1,8 +1,7 @@
 import { render } from 'solid-js/dom'
-
-const HelloMessage = props => <div>Hello {props.name}</div>
+import HelloMessage  from './HelloMessage'
 
 render(
-  () => <HelloMessage name="Dude" />,
+  () => <HelloMessage name="Ian" />,
   document.getElementById('app')
 )
